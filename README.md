@@ -23,8 +23,11 @@
 
 | Name | Type |
 |------|------|
-| [yandex_lb_network_load_balancer.foo](https://registry.terraform.io/providers/yandex-cloud/yandex/0.133.0/docs/resources/lb_network_load_balancer) | resource |
-| [yandex_lb_target_group.foo](https://registry.terraform.io/providers/yandex-cloud/yandex/0.133.0/docs/resources/lb_target_group) | resource |
+| [yandex_alb_backend_group.test-backend-group](https://registry.terraform.io/providers/yandex-cloud/yandex/0.133.0/docs/resources/alb_backend_group) | resource |
+| [yandex_alb_http_router.tf-router](https://registry.terraform.io/providers/yandex-cloud/yandex/0.133.0/docs/resources/alb_http_router) | resource |
+| [yandex_alb_load_balancer.test-balancer](https://registry.terraform.io/providers/yandex-cloud/yandex/0.133.0/docs/resources/alb_load_balancer) | resource |
+| [yandex_alb_target_group.test-target-group](https://registry.terraform.io/providers/yandex-cloud/yandex/0.133.0/docs/resources/alb_target_group) | resource |
+| [yandex_alb_virtual_host.my-virtual-host](https://registry.terraform.io/providers/yandex-cloud/yandex/0.133.0/docs/resources/alb_virtual_host) | resource |
 | [yandex_vpc_network.skillfactory](https://registry.terraform.io/providers/yandex-cloud/yandex/0.133.0/docs/resources/vpc_network) | resource |
 | [yandex_vpc_subnet.subnet1](https://registry.terraform.io/providers/yandex-cloud/yandex/0.133.0/docs/resources/vpc_subnet) | resource |
 | [yandex_vpc_subnet.subnet2](https://registry.terraform.io/providers/yandex-cloud/yandex/0.133.0/docs/resources/vpc_subnet) | resource |
